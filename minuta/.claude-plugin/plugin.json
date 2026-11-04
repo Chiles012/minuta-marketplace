@@ -1,0 +1,10 @@
+{
+  "name": "minuta",
+  "displayName": "Minuta",
+  "version": "1.0.0",
+  "description": "Memoria de proyectos de Minuta en Claude Code: conector MCP, skill, contexto al abrir sesión y resumen en la nota del día.",
+  "author": { "name": "Asteron", "url": "https://minuta.asteron.com.mx" },
+  "homepage": "https://minuta.asteron.com.mx",
+  "license": "UNLICENSED",
+  "keywords": ["memoria", "notas", "mcp", "minuta"]
+}

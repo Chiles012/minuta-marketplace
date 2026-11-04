@@ -1,0 +1,11 @@
+{
+  "description": "Minuta: carga el contexto del proyecto al abrir sesión y pide el resumen para la nota del día al cerrar un trabajo.",
+  "hooks": {
+    "SessionStart": [
+      { "matcher": "startup|resume|clear", "hooks": [ { "type": "command", "command": "node", "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/sesion-inicio.mjs"], "timeout": 10 } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "node", "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/cierre.mjs"], "timeout": 10 } ] }
+    ]
+  }
+}

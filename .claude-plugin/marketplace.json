@@ -1,0 +1,14 @@
+{
+  "name": "minuta-marketplace",
+  "owner": { "name": "Asteron", "url": "https://minuta.asteron.com.mx" },
+  "description": "Plugins de Minuta para Claude Code: memoria de proyectos, notas y pendientes.",
+  "plugins": [
+    {
+      "name": "minuta",
+      "source": "./minuta",
+      "description": "Conecta Claude Code con tu memoria de Minuta: carga el contexto del proyecto al abrir sesión y deja el resumen en la nota del día.",
+      "category": "productivity",
+      "tags": ["memoria", "notas", "mcp"]
+    }
+  ]
+}

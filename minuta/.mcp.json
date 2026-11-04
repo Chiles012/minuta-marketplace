@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "minuta": {
+      "type": "http",
+      "url": "${MINUTA_URL:-https://minuta.asteron.com.mx}/mcp"
+    }
+  }
+}
